@@ -1,6 +1,5 @@
 <script setup>
 import HeaderComp from "@/components/template/HeaderComp.vue";
-import FooterComp from "@/components/template/FooterComp.vue";
 </script>
 
 <template>
@@ -8,14 +7,13 @@ import FooterComp from "@/components/template/FooterComp.vue";
   <main>
     <RouterView />
   </main>
-  <Footer-comp />
 </template>
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
 
 body {
-  background-color: #4f374d;
+  background-color: #ffffff;
 }
 
 #app {

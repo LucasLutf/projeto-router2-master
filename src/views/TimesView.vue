@@ -78,14 +78,14 @@ export default {
 .form-input input {
   width: 50%;
   padding: 0.5rem;
-  border: 5px solid #98b7e1;
-  border-radius: 10px;
+  border: 2px solid #000000;
+  border-radius: 5px;
 }
 
 .form-input button {
   padding: 0.5rem;
-  border: 5px solid #98b7e1;
-  border-radius: 10px;
+  border: 2px solid #000000;
+  border-radius: 5px;
   color: #454663;
   font-weight: bold;
   margin-left: 1%;
@@ -100,14 +100,14 @@ table {
   width: 80%;
   border-collapse: collapse;
   margin: 0 auto;
-  border: 1px solid #9bfae2;
+  border: 1px solid #101010;
   font-size: 1.1rem;
   text-align: center;
 }
 
 table thead {
-  background-color: #454663;
-  color: #9bfae2;
+  background-color: #3a3535;
+  color: #ffffff;
 }
 
 table thead th {
@@ -115,6 +115,6 @@ table thead th {
 }
 
 table tbody tr:nth-child(odd) {
-  background-color: #9bfae2;
+  background-color: #9c9c9c;
 }
 </style>
